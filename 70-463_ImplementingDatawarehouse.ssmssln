@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 14.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "02-Dimensions", "02-Dimensions\02-Dimensions.ssmssqlproj", "{9236E133-DB5C-4CCD-A435-9E0D54814BAF}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "03-Facts", "03-Facts\03-Facts.ssmssqlproj", "{CFDF71E6-EF5A-49D4-93B9-57EBDE276F69}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "04-SSIS_connectionmanager", "04-SSIS_connectionmanager\04-SSIS_connectionmanager.ssmssqlproj", "{58970C96-F452-45E6-ABE9-BACB7D0802F4}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "06-DataFlow", "06-DataFlow\06-DataFlow.ssmssqlproj", "{75BD74D4-CB83-4131-9A87-52567B376E19}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "07-PackageExecution", "07-PackageExecution\07-PackageExecution.ssmssqlproj", "{99A1F6FA-2A93-43F3-997D-FF628A15DBC9}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "08-ScriptTask", "08-ScriptTask\08-ScriptTask.ssmssqlproj", "{3B45113F-B2B1-48B5-8ADF-0CF44BF070B0}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "10-ControlFlow", "10-ControlFlow\10-ControlFlow.ssmssqlproj", "{47258EDD-4EA5-4438-92AD-929EDCC9E404}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "11-PackageLogic", "11-PackageLogic\11-PackageLogic.ssmssqlproj", "{A68E8D7D-6EB5-496E-9E8B-E3E3D69676D8}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "12-DataLoading", "12-DataLoading\12-DataLoading.ssmssqlproj", "{964675FC-E502-4A53-956C-AFE545D85849}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "13-Implementing Scripts Components", "13-Implementing Scripts Components\13-Implementing Scripts Components.ssmssqlproj", "{45E33CBE-5D75-4300-9E5A-8DE41B8445BD}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "14-Troubleshooting Data Integration Issue", "14-Troubleshooting Data Integration Issue\14-Troubleshooting Data Integration Issue.ssmssqlproj", "{294BDD2A-5B90-4FAA-AFAD-72B485713598}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "15-Install and MaintainSSISComponent", "15-Install and MaintainSSISComponent\15-Install and MaintainSSISComponent.ssmssqlproj", "{643C44BA-F54F-4A0D-BA23-1829F1972AB1}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "16-Implement AuditLog and EventHandler", "16-Implement AuditLog and EventHandler\16-Implement AuditLog and EventHandler.ssmssqlproj", "{162D59DC-8545-42F5-8652-31A96447A0F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9236E133-DB5C-4CCD-A435-9E0D54814BAF}.Default|Default.ActiveCfg = Default
+		{CFDF71E6-EF5A-49D4-93B9-57EBDE276F69}.Default|Default.ActiveCfg = Default
+		{58970C96-F452-45E6-ABE9-BACB7D0802F4}.Default|Default.ActiveCfg = Default
+		{75BD74D4-CB83-4131-9A87-52567B376E19}.Default|Default.ActiveCfg = Default
+		{99A1F6FA-2A93-43F3-997D-FF628A15DBC9}.Default|Default.ActiveCfg = Default
+		{3B45113F-B2B1-48B5-8ADF-0CF44BF070B0}.Default|Default.ActiveCfg = Default
+		{47258EDD-4EA5-4438-92AD-929EDCC9E404}.Default|Default.ActiveCfg = Default
+		{A68E8D7D-6EB5-496E-9E8B-E3E3D69676D8}.Default|Default.ActiveCfg = Default
+		{964675FC-E502-4A53-956C-AFE545D85849}.Default|Default.ActiveCfg = Default
+		{A7A603EA-FBD0-401B-90CD-687709442E9F}.Default|Default.ActiveCfg = Default
+		{45E33CBE-5D75-4300-9E5A-8DE41B8445BD}.Default|Default.ActiveCfg = Default
+		{294BDD2A-5B90-4FAA-AFAD-72B485713598}.Default|Default.ActiveCfg = Default
+		{643C44BA-F54F-4A0D-BA23-1829F1972AB1}.Default|Default.ActiveCfg = Default
+		{162D59DC-8545-42F5-8652-31A96447A0F1}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
